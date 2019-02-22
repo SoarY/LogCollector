@@ -25,7 +25,7 @@ android {
         groupId = 'com.soarsy'//jcenter上的路径
         artifactId = 'logCollector'//项目名称
         publishVersion = '1.0.0'//版本号
-        desc = 'it is log util'//描述，不重要(不能删除)
+        desc = 'it is log collector'//描述，不重要(不能删除)
         website = 'https://github.com/SoarY/LogExample'//网站，不重要,尽量模拟github上的地址(不能删除)
         //repository='https://github.com'//VCS 不重要
     }

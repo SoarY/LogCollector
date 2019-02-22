@@ -1,1 +1,1 @@
-include ':logCollectorExample',':LogCollector'
+include ':LogCollectorExample',':LogCollector'
