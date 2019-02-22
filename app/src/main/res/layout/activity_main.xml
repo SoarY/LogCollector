@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/black"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="制造崩溃:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/st_orange_white"
+        android:focusable="true"
+        android:text="Crash"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通日志上传:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/st_orange_white"
+        android:focusable="true"
+        android:text="upload"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="崩溃日志上传:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/st_orange_white"
+        android:focusable="true"
+        android:text="upload"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
