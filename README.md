@@ -33,6 +33,7 @@ private void init() {
       
 #### 无SD卡<br>
   * getFilesDir<br>
+  
       /data/data/(application package)/files/Logcat/logcat.log<br>
 #### 效果示例
   ![效果示例](https://github.com/SoarY/LogCollector/blob/master/file/logpath.png?raw=true)
