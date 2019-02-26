@@ -1,6 +1,9 @@
 # LogCollector
 Android Log 日志收集库
 
+## Demo 
+[Download](https://github.com/SoarY/LogCollector/blob/master/file/LogCollectorExample-debug.apk?raw=true)
+
 ## 使用步骤
 #### Step 1.依赖LogCollector
 Gradle 
@@ -32,4 +35,4 @@ private void init() {
   * getFilesDir<br>
       /data/data/(application package)/files/Logcat/logcat.log<br>
 #### 效果示例
-  ![效果示例](http://oceh51kku.bkt.clouddn.com/banner_example1.png)
+  ![效果示例](https://github.com/SoarY/LogCollector/blob/master/file/logpath.png?raw=true)
