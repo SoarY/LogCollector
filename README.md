@@ -17,12 +17,14 @@ dependencies{
 ```java
 private void init() {
      context = getApplicationContext();
-     //普通log日志初始化
-     LogcatHelper.getInstance().init(context);
      //崩溃日志初始化（默认开启）
      CrashHelper.getInstance().init(context);
-     //开启普通日志输出
-     LogcatHelper.getInstance().start();
+
+        //建议在需调试时打开
+      ////普通log日志初始化
+      // LogcatHelper.getInstance().init(context);
+      ////开启普通日志输出
+      //LogcatHelper.getInstance().start();
 }
 ```
 ## 效果
